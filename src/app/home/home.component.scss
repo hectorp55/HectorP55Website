@@ -1,0 +1,42 @@
+.header {
+    background-color: #1e2330;
+    color: #ffffff;
+    padding: 60px 20%;
+
+    .description {
+        color: #a1a1a1;
+    }
+}
+
+.body {
+    .profile-info {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+
+        .info-section {
+            padding: 0 150px;
+        }
+    }
+
+    .picture {
+        padding: 50px;
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 40%;
+        }
+    }
+}
+
+.accent {
+    color: #a82e2e;
+}
+.title {
+    font-size: 42px;
+    font-family: 'Lato', sans-serif;
+}
+.description {
+    font-size: 20px;
+}
