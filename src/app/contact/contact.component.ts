@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { labels } from '../labels';
+import { PageHeaderLabels } from '../labels';
+import { Header } from '../label-interface';
 
 @Component({
   selector: 'app-contact',
@@ -10,9 +11,13 @@ export class ContactComponent implements OnInit {
 
   constructor() { }
 
-  public headerLabels;
+  public headerLabels: Header;
   ngOnInit(): void {
-    this.headerLabels = labels.contact;
+    this.headerLabels = PageHeaderLabels.Contact;
+
+    console.log(this.headerLabels);
+    console.log(PageHeaderLabels);
+    console.log('Test');
   }
 
 }

@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import type { Header } from '../label-interface';
 
 @Component({
   selector: 'app-header-card',
@@ -7,8 +8,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class HeaderCardComponent implements OnInit {
 
-  @Input('title') title: string;
-  @Input('description') description: string;
+  @Input('header') Header: Header;
 
   constructor() { }
 

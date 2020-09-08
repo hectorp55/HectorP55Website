@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { labels } from '../labels';
+import { PageHeaderLabels } from '../labels';
+import type { Header } from '../label-interface';
 
 @Component({
   selector: 'app-home',
@@ -8,11 +9,11 @@ import { labels } from '../labels';
 })
 export class HomeComponent implements OnInit {
 
-  public headerLabels;
+  public headerLabels: Header;
   constructor() { }
 
   ngOnInit(): void {
-    this.headerLabels = labels.aboutMe;
+    this.headerLabels = PageHeaderLabels.AboutMe;
   }
 
 }
