@@ -4,12 +4,17 @@
     align-items: center;
     border-bottom: 1px solid black;
     background-color: #ffffff;
+    padding: 5px;
+    height: 140px;
+    font-size: 20px;
+    transition: 0.5s;
 
     .hectorp55-logo {
         width: 20%;
+        height: 80%;
 
         .icon {
-            width: 30%;
+            height: 100%;
         }
     }
 
@@ -21,6 +26,15 @@
          
         a {
             width: 15%;
+            color: #a82e2e;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #751919;
+        }
+
+        .active-route {
+            text-decoration: underline;
         }
     }
 }
