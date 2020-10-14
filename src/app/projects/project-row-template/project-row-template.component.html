@@ -1,0 +1,18 @@
+<div class="project-template">
+    <div class="project-header">
+        <h2 class="title project-title">{{projectTemplate.Title.Primary}} <span class="accent">{{projectTemplate.Title.Secondary}}</span></h2>
+        <h3 class="project-oneliner">"{{projectTemplate.OneLiner}}"</h3>
+    </div>
+    <div class="project-info">
+        <img class="project-img" src="./assets/BridgeBuilder-TitleScreen.png">
+        <div class="project-description">
+            <p>{{projectTemplate.Description}}</p>
+            <p>Technology Used</p>
+            <ul *ngFor="let tech of projectTemplate.Technologys">
+                <li>
+                    {{tech}}
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

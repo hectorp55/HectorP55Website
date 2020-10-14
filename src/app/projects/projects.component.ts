@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Header, ProjectTemplate } from '../label-interface';
+import { PageHeaderLabels, Projects } from '../labels';
 
 @Component({
   selector: 'app-projects',
@@ -7,9 +9,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProjectsComponent implements OnInit {
 
+  public headerLabels: Header;
+  public projects: ProjectTemplate[];
   constructor() { }
 
   ngOnInit(): void {
+    this.headerLabels = PageHeaderLabels.Projects;
+    this.projects = Projects;
   }
 
 }

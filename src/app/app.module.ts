@@ -8,6 +8,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
 import { HeaderCardComponent } from './header-card/header-card.component';
+import { ProjectRowTemplateComponent } from './projects/project-row-template/project-row-template.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { HeaderCardComponent } from './header-card/header-card.component';
     NavBarComponent,
     ProjectsComponent,
     ContactComponent,
-    HeaderCardComponent
+    HeaderCardComponent,
+    ProjectRowTemplateComponent
   ],
   imports: [
     BrowserModule,

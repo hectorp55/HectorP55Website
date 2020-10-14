@@ -5,6 +5,18 @@ export interface HeaderLabels {
 }
 
 export interface Header {
-    Title: string;
-    Description: string;
+    Title: string,
+    Description: string
+}
+
+export interface ProjectTitle {
+    Primary: string,
+    Secondary: string
+}
+
+export interface ProjectTemplate {
+    Title: ProjectTitle,
+    OneLiner: string,
+    Description: string,
+    Technologys: string[]
 }
