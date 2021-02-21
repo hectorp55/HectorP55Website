@@ -4,7 +4,7 @@
         <h3 class="project-oneliner">"{{projectTemplate.OneLiner}}"</h3>
     </div>
     <div class="project-info">
-        <img class="project-img" src="./assets/BridgeBuilder-TitleScreen.png">
+        <slideshow [autoPlay]="true" [imageUrls]="projectTemplate.Images" [lazyLoad]="projectTemplate.Images.length > 1" [autoPlayWaitForLazyLoad]="true"></slideshow>
         <div class="project-description">
             <p>{{projectTemplate.Description}}</p>
             <p>Technology Used</p>

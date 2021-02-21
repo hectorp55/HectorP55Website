@@ -18,5 +18,6 @@ export interface ProjectTemplate {
     Title: ProjectTitle,
     OneLiner: string,
     Description: string,
-    Technologys: string[]
+    Technologys: string[],
+    Images: string[]
 }
