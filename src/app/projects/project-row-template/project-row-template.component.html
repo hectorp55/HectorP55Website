@@ -3,8 +3,10 @@
         <h2 class="title project-title">{{projectTemplate.Title.Primary}} <span class="accent">{{projectTemplate.Title.Secondary}}</span></h2>
         <h3 class="project-oneliner">"{{projectTemplate.OneLiner}}"</h3>
     </div>
-    <div class="project-info">
-        <slideshow [autoPlay]="true" [imageUrls]="projectTemplate.Images" [lazyLoad]="projectTemplate.Images.length > 1" [autoPlayWaitForLazyLoad]="true"></slideshow>
+    <div class="project-info" [ngClass]="{'flipped': isFlipped}">
+        <div class="project-img">
+            <slider-carousel [images]="projectTemplate.Images"></slider-carousel>
+        </div>
         <div class="project-description">
             <p>{{projectTemplate.Description}}</p>
             <p>Technology Used</p>

@@ -1,4 +1,4 @@
 <app-header-card [header]=headerLabels></app-header-card>
-<div class="project-body" *ngFor="let project of projects">
-    <app-project-row-template [project-template]=project></app-project-row-template>
+<div class="project-body" *ngFor="let project of projects; let i = index">
+    <app-project-row-template [project-template]=project [is-flipped]="i % 2 == 0"></app-project-row-template>
 </div>

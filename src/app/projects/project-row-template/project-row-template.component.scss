@@ -11,11 +11,16 @@
 
 .project-img {
     width: 45%;
+    display: inline-block;
 }
 
 .project-info {
     display: flex;
     justify-content: space-between;
+}
+
+.flipped {
+    flex-direction: row-reverse;
 }
 
 .project-header {

@@ -9,6 +9,7 @@ import { ProjectTemplate } from 'src/app/label-interface';
 export class ProjectRowTemplateComponent implements OnInit {
 
   @Input('project-template') projectTemplate: ProjectTemplate;
+  @Input('is-flipped') isFlipped: boolean;
   constructor() { }
 
   ngOnInit(): void {
