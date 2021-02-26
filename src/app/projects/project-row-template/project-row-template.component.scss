@@ -12,15 +12,27 @@
 .project-img {
     width: 45%;
     display: inline-block;
+
+    @media (max-width: 767px) {
+        width: 100%;
+    }
 }
 
 .project-info {
     display: flex;
     justify-content: space-between;
-}
 
-.flipped {
-    flex-direction: row-reverse;
+    &.flipped {
+        flex-direction: row-reverse;
+    }
+
+    @media (max-width: 767px) {
+        flex-direction: column;
+
+        &.flipped {
+            flex-direction: column;
+        }
+    }
 }
 
 .project-header {
@@ -31,6 +43,10 @@
     width: 50%;
     font-size: 16px;
     line-height: 30px;
+
+    @media (max-width: 767px) {
+        width: 100%;
+    }
 }
 
 .project-template {
