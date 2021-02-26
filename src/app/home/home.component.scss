@@ -25,4 +25,20 @@
         list-style-type: none;
         padding-inline-start: 0;
     }
+
+    .social-icons {
+        display: flex;
+        justify-content: center;
+
+        .social-icon {
+            width: 20%;
+            max-width: 220px;
+            max-height: 220px;
+            padding: 20px;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
 }

@@ -17,7 +17,7 @@
         align-items: center;
 
         .icon {
-            width: 100%;
+            height: 100%;
         }
 
         @media (max-width: 767px) {
@@ -48,10 +48,16 @@
 
         @media (max-width: 767px) {
             justify-content: space-between;
-            padding: 0 1em;
+            padding: 0 1.5em;
 
             a {
                 width: auto;
+            }
+        }
+
+        @media (max-width: 374px) {
+            a {
+                font-size: 15px;
             }
         }
     }
