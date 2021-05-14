@@ -9,6 +9,7 @@ import { ContactComponent } from './contact/contact.component';
 import { HeaderCardComponent } from './header-card/header-card.component';
 import { ProjectRowTemplateComponent } from './projects/project-row-template/project-row-template.component';
 import { SliderCarouselModule } from 'slider-carousel';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { SliderCarouselModule } from 'slider-carousel';
     ProjectsComponent,
     ContactComponent,
     HeaderCardComponent,
-    ProjectRowTemplateComponent
+    ProjectRowTemplateComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
