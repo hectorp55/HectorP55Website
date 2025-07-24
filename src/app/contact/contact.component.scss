@@ -5,3 +5,21 @@
     padding: 100px;
     color: #a1a1a1;
 }
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+
+    .social-icon {
+        width: 5%;
+        max-width: 220px;
+        max-height: 220px;
+        min-width: 50px;
+        min-height: 50px;
+        padding: 20px;
+
+        img {
+            width: 100%;
+        }
+    }
+}

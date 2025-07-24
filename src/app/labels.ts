@@ -7,7 +7,7 @@ export const PageHeaderLabels: HeaderLabels = {
     },
     Contact: {
         Title: 'Contact Me',
-        Description: 'I am always open to new ideas and opportunities. Please contact me if you have any questions, feedback or collaboration opportunities.'
+        Description: 'I’m currently exploring new full-time opportunities and excited to contribute to a team where I can grow, solve meaningful problems, and build impactful products. If you have any questions, feedback, or potential opportunities for collaboration, I’d love to connect.'
     },
     Projects: {
         Title: 'Projects',
