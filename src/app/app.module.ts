@@ -8,7 +8,6 @@ import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
 import { HeaderCardComponent } from './header-card/header-card.component';
 import { ProjectRowTemplateComponent } from './projects/project-row-template/project-row-template.component';
-import { SliderCarouselModule } from 'slider-carousel';
 import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
@@ -25,7 +24,6 @@ import { FooterComponent } from './footer/footer.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    SliderCarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]
