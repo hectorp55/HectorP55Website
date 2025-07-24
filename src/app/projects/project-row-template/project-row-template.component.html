@@ -1,27 +1,31 @@
 <div class="project-template">
-    <div class="project-header">
-        <div class="header-title">
-            <h2 class="title project-title">{{projectTemplate.Title.Primary}} <span class="accent">{{projectTemplate.Title.Secondary}}</span></h2>
-            <h3 class="project-oneliner">"{{projectTemplate.OneLiner}}"</h3>
-        </div>
-        <div *ngIf="projectTemplate.Link != null" class="header-link">
-            <a class="git-icon" [href]="projectTemplate.Link">
-                <img src="./assets/github-logo.png">
-            </a>
-        </div>
+  <div class="project-header">
+    <div class="header-title">
+      <h2 class="title project-title">{{projectTemplate.Title.Primary}} <span class="accent">{{projectTemplate.Title.Secondary}}</span></h2>
+      <h3 class="project-oneliner">"{{projectTemplate.OneLiner}}"</h3>
     </div>
-    <div class="project-info" [ngClass]="{'flipped': isFlipped}">
-        <div class="project-img">
-            <!-- <slider-carousel [images]="projectTemplate.Images"></slider-carousel> -->
-        </div>
-        <div class="project-description">
-            <p>{{projectTemplate.Description}}</p>
-            <p>Technology Used</p>
-            <ul *ngFor="let tech of projectTemplate.Technologys">
-                <li>
-                    {{tech}}
-                </li>
-            </ul>
-        </div>
+    @if (projectTemplate.Link != null) {
+      <div class="header-link">
+        <a class="git-icon" [href]="projectTemplate.Link">
+          <img src="./assets/github-logo.png">
+        </a>
+      </div>
+    }
+  </div>
+  <div class="project-info" [ngClass]="{'flipped': isFlipped}">
+    <div class="project-img">
+      <!-- <slider-carousel [images]="projectTemplate.Images"></slider-carousel> -->
     </div>
+    <div class="project-description">
+      <p>{{projectTemplate.Description}}</p>
+      <p>Technology Used</p>
+      @for (tech of projectTemplate.Technologys; track tech) {
+        <ul>
+          <li>
+            {{tech}}
+          </li>
+        </ul>
+      }
+    </div>
+  </div>
 </div>
