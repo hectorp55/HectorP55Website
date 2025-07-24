@@ -3,7 +3,7 @@ import type { HeaderLabels, ProjectTemplate } from './label-interface';
 export const PageHeaderLabels: HeaderLabels = {
     AboutMe: {
         Title: 'About Me',
-        Description: 'I am a software engineer and gamer. I graduated from Texas A&M and am a wannabe game designer and painter.'
+        Description: 'Full-stack software engineer with experience building scalable, responsive web applications using modern frameworks and technologies. I specialize in developing and maintaining critical, client-facing features with a solid understanding of both front-end and back-end systems. Outside of work, I enjoy playing video games and dabbling in mobile game design. One day, I’m hoping to build the next Flappy Bird.'
     },
     Contact: {
         Title: 'Contact Me',
