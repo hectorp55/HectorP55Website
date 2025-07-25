@@ -1,4 +1,4 @@
-import type { HeaderLabels, ProjectTemplate } from './label-interface';
+import type { ExperienceTemplate, HeaderLabels, ProjectTemplate } from './label-interface';
 
 export const PageHeaderLabels: HeaderLabels = {
     AboutMe: {
@@ -12,6 +12,10 @@ export const PageHeaderLabels: HeaderLabels = {
     Projects: {
         Title: 'Projects',
         Description: 'A gallery of my personal at home projects.'
+    },
+    Experience: {
+        Title: 'Experience',
+        Description: 'Another look at my professional experience.'
     }
 };
 
@@ -56,5 +60,72 @@ export const Projects: ProjectTemplate[] = [
             {image: './assets/IM-Gameplay2.png', thumbImage: './assets/IM-Gameplay2.png'},
             {image: './assets/IM-Gameplay3.png', thumbImage: './assets/IM-Gameplay3.png'},
         ]
+    }
+];
+
+export const Experiences: ExperienceTemplate[] = [
+    {
+        Company: { Primary: 'Indeed,', Secondary: 'Austin, TX (Remote)' },
+        Titles: [
+            {
+                Name: "Software Engineer II",
+                StartDate: "Jun 2023",
+                EndDate: "July 2025"
+            },
+            {
+                Name: "Software Engineer I",
+                StartDate: "Mar 2023",
+                EndDate: "Jun 2023"
+            },
+            {
+                Name: "Research Engineer I",
+                StartDate: "Aug 2021",
+                EndDate: "Mar 2023"
+            }
+        ],
+        Description: [
+            'Designed and built the GraphQL API portion of an intelligent resume enhancement tool that inferred relevant skills and certifications from jobseekers’ existing Indeed profiles, resulting in an increased number of resumes eligible for employer search.',
+            'Independently developed and integrated AI-powered agents that generate personalized resume sections from structured user profile data, enabling jobseekers to enhance their resumes, increase visibility in employer searches, and reduce time to match with potential employers.',
+            'Led a project that produced a quality score for each jobseeker, enabling the evaluation of data provided by third-party vendors and informing decisions on contract continuation based on data reliability.',
+            'Individually monitored and maintained research initiatives aimed at generating high-quality sales leads for roles gathered on public job boards, enabling the sales team to prioritize outreach efforts more effectively and improve conversion rates.'
+        ],
+        Technologys: [ 'React', 'GraphQL', 'Typescript', 'Java', 'Python', 'HTML', 'CSS', 'Kotlin', 'Terraform', 'SQL', 'Spring', 'Jest' ],
+    },
+    {
+        Company: { Primary: 'Charles Schwab,', Secondary: 'Austin, TX (Hybrid)' },
+        Titles: [
+            {
+                Name: "Software Developer III",
+                StartDate: "Aug 2019",
+                EndDate: "Sep 2021"
+            },
+            {
+                Name: "Software Developer II",
+                StartDate: "Jun 2018",
+                EndDate: "Aug 2019"
+            }
+        ],
+        Description: [
+            'Provided technical guidance to junior developers who participated in the new employment readiness program through knowledge-sharing workshops, pairing sessions, and code reviews, helping accelerate their onboarding and reduce the time to effectiveness in their first engineering roles.',
+            'Collaborated with product managers and impacted front-end teams to design and implement a new backend service that centralized and standardized the delivery of shared profile information across Schwab.com, improving data consistency, reducing duplication of effort, and enabling a more seamless user experience across multiple applications.',
+            'Led the implementation of a new system for efficiently delivering business-critical alerts on the Schwab.com homepage, reducing the time and effort required to notify users and minimizing risk to the company during high-impact events.',
+            'Collaborated cross-functionally with product managers, UX designers, and QA engineers to deliver refreshed components on the Schwab.com Personal Value homepage, modernizing both the underlying framework and visual design to enhance usability and performance.'
+        ],
+        Technologys: [ 'Angualr', '.NetCore', 'Typescript', 'Java', 'Javascript', 'HTML', 'CSS', 'SCSS', 'Webpack', 'Jasmine', 'Junit', 'xUnit' ],
+    },
+    {
+        Company: { Primary: 'Paycom,', Secondary: 'Oklahoma City, OK' },
+        Titles: [
+            {
+                Name: "Software Developer Intern",
+                StartDate: "May 2017",
+                EndDate: "Aug 2017"
+            }
+        ],
+        Description: [
+            'Collaborated with a team of interns to design and develop the user interface and backend database for an internal prototype tutorial creation tool, aimed at reducing the time and technical knowledge required to build step-by-step guides for any Paycom webpage.',
+            'Applied Agile methodologies by organizing and participating in daily standups, sprint planning sessions, and rotating team leadership responsibilities to promote effective project management and communication.',
+        ],
+        Technologys: [ 'Angualr', '.NetCore', 'Typescript', 'Java', 'Javascript', 'HTML', 'CSS', 'SCSS', 'Webpack', 'Jasmine', 'Junit', 'xUnit' ],
     }
 ];

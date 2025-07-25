@@ -1,0 +1,27 @@
+.experience-template {
+    padding: 20px 0;
+}
+
+.experience-row {
+    .company {
+        font-size: 28px;
+    }
+
+    .title {
+        .name {
+            font-size: 16px;
+            font-weight: normal;
+        }
+        .date {
+            color: #999999;
+        }
+    }
+
+    .technology {
+        font-weight: bold;
+    }
+
+    .description {
+        font-size: 16px;
+    }
+}

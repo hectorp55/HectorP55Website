@@ -1,0 +1,22 @@
+<div class="experience-template">
+    <div class="experience-row">
+        <h2 class="company">{{experienceTemplate.Company.Primary}} <span class="accent">{{experienceTemplate.Company.Secondary}}</span></h2>
+        @for (title of experienceTemplate.Titles; track title;) {
+            <div class="title">
+                <h3 class="name">{{title.Name}}   <span class="date">{{title.StartDate}} - {{title.EndDate}}</span></h3>
+            </div>
+        }
+        <div class="technologies">
+            <span class="technology">Technologies:</span> {{experienceTemplate.Technologys.join(", ")}}
+        </div>
+        <div class="description">
+            @for (descriptionPoint of experienceTemplate.Description; track descriptionPoint;) {
+                <ul>
+                    <li>
+                        {{descriptionPoint}}
+                    </li>
+                </ul>
+            }
+        </div>
+    </div>
+</div>

@@ -1,0 +1,6 @@
+<app-header-card [header]=headerLabels></app-header-card>
+@for (experience of experiences; track experience;) {
+  <div class="experience-body">
+    <app-experience-row-template [experience-template]=experience></app-experience-row-template>
+  </div>
+}

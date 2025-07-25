@@ -10,6 +10,8 @@ import { HeaderCardComponent } from './header-card/header-card.component';
 import { ProjectRowTemplateComponent } from './projects/project-row-template/project-row-template.component';
 import { FooterComponent } from './footer/footer.component';
 import { NgImageSliderModule } from 'ng-image-slider';
+import { ExperienceComponent } from './experience/experience.component';
+import { ExperienceRowTemplateComponent } from './experience/experience-row-template/experience-row-template.component';
 
 @NgModule({
   declarations: [
@@ -17,9 +19,11 @@ import { NgImageSliderModule } from 'ng-image-slider';
     HomeComponent,
     NavBarComponent,
     ProjectsComponent,
+    ExperienceComponent,
     ContactComponent,
     HeaderCardComponent,
     ProjectRowTemplateComponent,
+    ExperienceRowTemplateComponent,
     FooterComponent
   ],
   imports: [

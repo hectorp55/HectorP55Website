@@ -1,7 +1,8 @@
 export interface HeaderLabels {
     AboutMe: Header,
     Contact: Header,
-    Projects: Header
+    Projects: Header,
+    Experience: Header,
 }
 
 export interface Header {
@@ -21,6 +22,19 @@ export interface ProjectTemplate {
     Technologys: string[],
     Link: string,
     Images: ImageObject[]
+}
+
+export interface RoleInformation {
+    Name: string,
+    StartDate: string,
+    EndDate: string,
+}
+
+export interface ExperienceTemplate {
+    Company: ProjectTitle,
+    Titles: RoleInformation[],
+    Technologys: string[],
+    Description: string[]
 }
 
 export interface ImageObject {
