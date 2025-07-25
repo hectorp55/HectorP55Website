@@ -9,6 +9,7 @@ import { ContactComponent } from './contact/contact.component';
 import { HeaderCardComponent } from './header-card/header-card.component';
 import { ProjectRowTemplateComponent } from './projects/project-row-template/project-row-template.component';
 import { FooterComponent } from './footer/footer.component';
+import { NgImageSliderModule } from 'ng-image-slider';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { FooterComponent } from './footer/footer.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    NgImageSliderModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

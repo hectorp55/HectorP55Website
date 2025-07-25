@@ -20,5 +20,12 @@ export interface ProjectTemplate {
     Description: string,
     Technologys: string[],
     Link: string,
-    Images: string[]
+    Images: ImageObject[]
+}
+
+export interface ImageObject {
+    image: string,
+    thumbImage: string,
+    alt?: string,
+    title?: string[]
 }

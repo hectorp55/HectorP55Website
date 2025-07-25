@@ -19,25 +19,42 @@ export const Projects: ProjectTemplate[] = [
     {
         Title: { Primary: 'Bridge', Secondary: 'Builder' },
         OneLiner: 'Ever felt like building just a whole bunch or bridges? Well now you can!',
-        Description: 'A mobile game I developed using Unity. The original idea came from a brainstorming session with my brother in which we wanted to create a game that only took single taps as input. The game was completely designed, developed, and drawn by me. It can be found on the google play store.',
-        Technologys: [ 'Unity - C#', 'Adobe Illustrator' ],
+        Description: 'A mobile game I designed and developed using Unity and C#. The concept came from a desire to create a game that could be played using only a single tap, making it simple, accessible, and engaging. I handled every aspect of the project, including game design, development, and artwork, from start to finish. The game is currently available on the Google Play Store.',
+        Technologys: [ 'Unity - C#', 'Visual Studio', 'Adobe Illustrator', 'GitHub' ],
         Link: "https://github.com/hectorp55/bridgebuilder",
-        Images: ['./assets/BridgeBuilder-TitleScreen.png', './assets/BridgeBuilder-Gameplay2.png', './assets/BridgeBuilder-Gameplay3.png', './assets/BridgeBuilder-Gameplay4.png', './assets/BridgeBuilder-Gameplay5.png', './assets/BridgeBuilder-Gameplay6.png']
+        Images: [
+            {image: './assets/BridgeBuilder-TitleScreen.png', thumbImage: './assets/BridgeBuilder-TitleScreen.png'},
+            {image: './assets/BridgeBuilder-Gameplay2.png', thumbImage: './assets/BridgeBuilder-Gameplay2.png'},
+            {image: './assets/BridgeBuilder-Gameplay3.png', thumbImage: './assets/BridgeBuilder-Gameplay3.png'},
+            {image: './assets/BridgeBuilder-Gameplay4.png', thumbImage: './assets/BridgeBuilder-Gameplay4.png'},
+            {image: './assets/BridgeBuilder-Gameplay5.png', thumbImage: './assets/BridgeBuilder-Gameplay5.png'},
+            {image: './assets/BridgeBuilder-Gameplay6.png', thumbImage: './assets/BridgeBuilder-Gameplay6.png'},
+        ]
     },
     {
         Title: { Primary: 'Cake', Secondary: 'Stacker' },
         OneLiner: 'Uno soñaba que era rey, Y de momento quiso un pastel',
-        Description: 'A web game I developed as a final project for my Digital Painting course at Texas A&M. The game was based on a Disney mini game which I played as a kid called "625 Sandwich Stacker", and the piglet inspired by the Cri Cri song, "Cochinitos Dormilones". The game and character were completely designed, developed, and drawn by me.',
-        Technologys: [ 'Unity - C#', 'Adobe Photoshop' ],
+        Description: 'A web game I created, inspired by one of my favorite childhood mini games, Disney’s 625 Sandwich Stacker. The main character, a piglet who dreams of becoming king so he can eat as much cake as he wants, was inspired by the lullaby “Cochinitos Dormilones” by Cri Cri, a bedtime song my dad used to sing to me. I handled every part of the game myself, from the hand-drawn character art to the core gameplay mechanics. The result is a playful, nostalgic experience that brings together personal memories and interactive design.',
+        Technologys: [ 'Unity - C#', 'Adobe Photoshop', 'Visual Studio' ],
         Link: null,
-        Images: ['./assets/CakeStacker-TitleScreen.png', './assets/CakeStacker-Gameplay2.png', './assets/CakeStacker-Gameplay3.png', './assets/CakeStacker-Gameplay4.png', './assets/CakeStacker-Gameplay5.png']
+        Images: [
+            {image: './assets/CakeStacker-TitleScreen.png', thumbImage: './assets/CakeStacker-TitleScreen.png'},
+            {image: './assets/CakeStacker-Gameplay2.png', thumbImage: './assets/CakeStacker-Gameplay2.png'},
+            {image: './assets/CakeStacker-Gameplay3.png', thumbImage: './assets/CakeStacker-Gameplay3.png'},
+            {image: './assets/CakeStacker-Gameplay4.png', thumbImage: './assets/CakeStacker-Gameplay4.png'},
+            {image: './assets/CakeStacker-Gameplay5.png', thumbImage: './assets/CakeStacker-Gameplay5.png'},
+        ]
     },
     {
         Title: { Primary: 'Intergalactic', Secondary: 'Muster' },
         OneLiner: 'Intergalactic hamburgers are all the rage!',
-        Description: 'A web game I developed using Unity. The original idea came from just watching to many alien movies. The game was designed, developed, and drawn by me and a couple work friends. It can be found on itch.io at the link below.',
-        Technologys: [ 'Unity - C#', 'Krita' ],
+        Description: 'A web game I led the development of, created in collaboration with a group of work friends interested in exploring what it takes to bring a small game from concept to launch. As a team, we handled everything from initial ideation and hand-drawn artwork to game design, development, and final deployment. It was a fun and rewarding exercise in collaboration, creativity, and fast-paced iteration. The game is still available to play on itch.io and can be found in the README of the GitHub project linked above.',
+        Technologys: [ 'Unity - C#', 'Krita', 'Visual Studio', 'GitHub' ],
         Link: "https://github.com/hectorp55/UFOCowGame",
-        Images: ['./assets/IM-Gameplay1.png', './assets/IM-Gameplay2.png', './assets/IM-Gameplay3.png']
+        Images: [
+            {image: './assets/IM-Gameplay1.png', thumbImage: './assets/IM-Gameplay1.png'},
+            {image: './assets/IM-Gameplay2.png', thumbImage: './assets/IM-Gameplay2.png'},
+            {image: './assets/IM-Gameplay3.png', thumbImage: './assets/IM-Gameplay3.png'},
+        ]
     }
 ];

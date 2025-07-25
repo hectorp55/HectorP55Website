@@ -5,7 +5,7 @@ import { ProjectTemplate } from 'src/app/label-interface';
     selector: 'app-project-row-template',
     templateUrl: './project-row-template.component.html',
     styleUrls: ['./project-row-template.component.scss'],
-    standalone: false
+    standalone: false,
 })
 export class ProjectRowTemplateComponent implements OnInit {
 
