@@ -36,6 +36,19 @@ export const Projects: ProjectTemplate[] = [
         ]
     },
     {
+        Title: { Primary: 'Pokemon', Secondary: 'Wordle' },
+        OneLiner: 'New York Times Wordle, Pokemon Version',
+        Description: 'A React-based demo inspired by the popular New York Times game, Wordle. In this version, players guess five-letter Pokémon names and can request hints in the form of their in-game sprites. It\'s a fun twist on the original, blending wordplay with nostalgia for Pokémon fans.',
+        Technologys: [ 'React', 'React Query', 'Pokemon API V2', 'Visual Studio', 'GitHub', 'Firebase' ],
+        Link: "https://github.com/hectorp55/poke-wordle",
+        Images: [
+            {image: './assets/poke-wordle-1.png', thumbImage: './assets/poke-wordle-1.png'},
+            {image: './assets/poke-wordle-2.png', thumbImage: './assets/poke-wordle-2.png'},
+            {image: './assets/poke-wordle-3.png', thumbImage: './assets/poke-wordle-3.png'},
+            {image: './assets/poke-wordle-4.png', thumbImage: './assets/poke-wordle-4.png'},
+        ]
+    },
+    {
         Title: { Primary: 'Cake', Secondary: 'Stacker' },
         OneLiner: 'Uno soñaba que era rey, Y de momento quiso un pastel',
         Description: 'A web game I created, inspired by one of my favorite childhood mini games, Disney’s 625 Sandwich Stacker. The main character, a piglet who dreams of becoming king so he can eat as much cake as he wants, was inspired by the lullaby “Cochinitos Dormilones” by Cri Cri, a bedtime song my dad used to sing to me. I handled every part of the game myself, from the hand-drawn character art to the core gameplay mechanics. The result is a playful, nostalgic experience that brings together personal memories and interactive design.',
