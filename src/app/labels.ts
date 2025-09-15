@@ -21,18 +21,16 @@ export const PageHeaderLabels: HeaderLabels = {
 
 export const Projects: ProjectTemplate[] = [
     {
-        Title: { Primary: 'Bridge', Secondary: 'Builder' },
-        OneLiner: 'Ever felt like building just a whole bunch or bridges? Well now you can!',
-        Description: 'A mobile game I designed and developed using Unity and C#. The concept came from a desire to create a game that could be played using only a single tap, making it simple, accessible, and engaging. I handled every aspect of the project, including game design, development, and artwork, from start to finish. The game is currently available on the Google Play Store.',
-        Technologys: [ 'Unity - C#', 'Visual Studio', 'Adobe Illustrator', 'GitHub' ],
-        Link: "https://github.com/hectorp55/bridgebuilder",
+        Title: { Primary: 'Rizze:', Secondary: 'A Stacker Game' },
+        OneLiner: 'A nostalgic challenge reborn for your phone. Fast, fun and addictive!',
+        Description: 'Rizze is a fast and addictive one-tap challenge built for quick play sessions on the go. Designed for simplicity and accessibility, every round delivers an easy-to-learn yet hard-to-master experience that keeps you coming back. With smooth gameplay, clean visuals, and engaging design, Rizze is perfect for anyone looking for a fun pick-up-and-play game on iOS.',
+        Technologys: [ 'Unity - C#', 'Xcode', 'Apple Core', 'Apple Gamekit', 'Visual Studio Code', 'Canva', 'GitHub' ],
+        Link: "https://github.com/hectorp55/cube-stacker",
         Images: [
-            {image: './assets/BridgeBuilder-TitleScreen.png', thumbImage: './assets/BridgeBuilder-TitleScreen.png'},
-            {image: './assets/BridgeBuilder-Gameplay2.png', thumbImage: './assets/BridgeBuilder-Gameplay2.png'},
-            {image: './assets/BridgeBuilder-Gameplay3.png', thumbImage: './assets/BridgeBuilder-Gameplay3.png'},
-            {image: './assets/BridgeBuilder-Gameplay4.png', thumbImage: './assets/BridgeBuilder-Gameplay4.png'},
-            {image: './assets/BridgeBuilder-Gameplay5.png', thumbImage: './assets/BridgeBuilder-Gameplay5.png'},
-            {image: './assets/BridgeBuilder-Gameplay6.png', thumbImage: './assets/BridgeBuilder-Gameplay6.png'},
+            {image: './assets/Rizze-1.png', thumbImage: './assets/Rizze-1.png'},
+            {image: './assets/Rizze-2.png', thumbImage: './assets/Rizze-2.png'},
+            {image: './assets/Rizze-3.png', thumbImage: './assets/Rizze-3.png'},
+            {image: './assets/Rizze-4.png', thumbImage: './assets/Rizze-4.png'},
         ]
     },
     {
@@ -46,6 +44,21 @@ export const Projects: ProjectTemplate[] = [
             {image: './assets/poke-wordle-2.png', thumbImage: './assets/poke-wordle-2.png'},
             {image: './assets/poke-wordle-3.png', thumbImage: './assets/poke-wordle-3.png'},
             {image: './assets/poke-wordle-4.png', thumbImage: './assets/poke-wordle-4.png'},
+        ]
+    },
+    {
+        Title: { Primary: 'Bridge', Secondary: 'Builder' },
+        OneLiner: 'Ever felt like building just a whole bunch or bridges? Well now you can!',
+        Description: 'A mobile game I designed and developed using Unity and C#. The concept came from a desire to create a game that could be played using only a single tap, making it simple, accessible, and engaging. I handled every aspect of the project, including game design, development, and artwork, from start to finish. The game is currently available on the Google Play Store.',
+        Technologys: [ 'Unity - C#', 'Visual Studio', 'Adobe Illustrator', 'GitHub' ],
+        Link: "https://github.com/hectorp55/bridgebuilder",
+        Images: [
+            {image: './assets/BridgeBuilder-TitleScreen.png', thumbImage: './assets/BridgeBuilder-TitleScreen.png'},
+            {image: './assets/BridgeBuilder-Gameplay2.png', thumbImage: './assets/BridgeBuilder-Gameplay2.png'},
+            {image: './assets/BridgeBuilder-Gameplay3.png', thumbImage: './assets/BridgeBuilder-Gameplay3.png'},
+            {image: './assets/BridgeBuilder-Gameplay4.png', thumbImage: './assets/BridgeBuilder-Gameplay4.png'},
+            {image: './assets/BridgeBuilder-Gameplay5.png', thumbImage: './assets/BridgeBuilder-Gameplay5.png'},
+            {image: './assets/BridgeBuilder-Gameplay6.png', thumbImage: './assets/BridgeBuilder-Gameplay6.png'},
         ]
     },
     {
