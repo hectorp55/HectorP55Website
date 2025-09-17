@@ -34,6 +34,19 @@ export const Projects: ProjectTemplate[] = [
         ]
     },
     {
+        Title: { Primary: 'Fuel Cast:', Secondary: 'Gas Price Estimator' },
+        OneLiner: 'Know before you pump. Get tomorrow\’s gas price forecast today.',
+        Description: 'This app helps drivers make smarter fueling decisions by predicting whether gas prices are likely to rise or fall. It combines historic data from the FRED Federal Reserve API and the U.S. Energy Information Administration API, with daily price updates from Collect API, to generate forecasts. Built with Next.js using API routes and deployed on AWS Amplify, the app delivers fast, reliable insights right from the web.',
+        Technologys: [ 'Next.js', 'Tailwind CSS', 'Next.js API Routes', 'AWS Amplify', 'Canva', 'GitHub' ],
+        Link: "https://github.com/hectorp55/gas-prices-estimator",
+        Images: [
+            {image: './assets/Fuelcast-1.png', thumbImage: './assets/Fuelcast-1.png'},
+            {image: './assets/Fuelcast-2.png', thumbImage: './assets/Fuelcast-2.png'},
+            {image: './assets/Fuelcast-3.png', thumbImage: './assets/Fuelcast-3.png'},
+            {image: './assets/Fuelcast-4.png', thumbImage: './assets/Fuelcast-4.png'},
+        ]
+    },
+    {
         Title: { Primary: 'Pokemon', Secondary: 'Wordle' },
         OneLiner: 'New York Times Wordle, Pokemon Version',
         Description: 'A React-based demo inspired by the popular New York Times game, Wordle. In this version, players guess five-letter Pokémon names and can request hints in the form of their in-game sprites. It\'s a fun twist on the original, blending wordplay with nostalgia for Pokémon fans.',
