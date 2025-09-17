@@ -1,6 +1,2 @@
 <app-header-card [header]=headerLabels></app-header-card>
-@for (experience of experiences; track experience;) {
-  <div class="experience-body">
-    <app-experience-row-template [experience-template]=experience></app-experience-row-template>
-  </div>
-}
+<ngx-extended-pdf-viewer [src]="'./assets/Puga-Resume-2025.pdf'"></ngx-extended-pdf-viewer>

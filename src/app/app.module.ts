@@ -12,6 +12,7 @@ import { FooterComponent } from './footer/footer.component';
 import { NgImageSliderModule } from 'ng-image-slider';
 import { ExperienceComponent } from './experience/experience.component';
 import { ExperienceRowTemplateComponent } from './experience/experience-row-template/experience-row-template.component';
+import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { ExperienceRowTemplateComponent } from './experience/experience-row-temp
     BrowserModule,
     AppRoutingModule,
     NgImageSliderModule,
+    NgxExtendedPdfViewerModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
