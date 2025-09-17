@@ -71,8 +71,15 @@
     max-width: 220px;
     max-height: 220px;
     padding: 20px;
-
+    
     img {
         width: 100%;
+        transition: all 0.5s ease-in-out;
     }
 }
+.git-icon:hover {
+    img {
+        transform: scale(1.2);
+    }
+}
+

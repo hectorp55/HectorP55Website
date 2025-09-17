@@ -1,10 +1,24 @@
 .header {
-    background-color: #1e2330;
+    background: linear-gradient(-45deg, #a82e2e, #1e2330);
+    background-size: 400% 400%;
+    animation: gradient 30s ease infinite;
     color: #ffffff;
     padding: 60px 20%;
     min-height: 170px;
 
     .description {
         color: #a1a1a1;
+    }
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
     }
 }

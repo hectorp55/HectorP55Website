@@ -40,10 +40,14 @@
             max-width: 220px;
             max-height: 220px;
             padding: 20px;
+            transition: all 0.5s ease-in-out;
 
             img {
                 width: 100%;
             }
         }
+    }
+    .social-icon:hover {
+        transform: scale(1.2);
     }
 }
