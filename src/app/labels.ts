@@ -1,4 +1,31 @@
-import type { ExperienceTemplate, HeaderLabels, ProjectTemplate } from './label-interface';
+import type { ExperienceTemplate, HeaderLabels, ProjectTemplate, TechLogos } from './label-interface';
+
+export const TechnologyLogos: TechLogos = {
+    React: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+    ReactQuery: "./assets/reactquery.png",
+    Firebase: "https://upload.wikimedia.org/wikipedia/commons/f/fd/Firebase_Logo_%28No_wordmark%29_%282024-%29.svg",
+    GraphQL: "https://upload.wikimedia.org/wikipedia/commons/1/17/GraphQL_Logo.svg",
+    Angular: "https://upload.wikimedia.org/wikipedia/commons/2/2c/Angular_icon.svg",
+    Python: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
+    Kotlin: "https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png",
+    Java: "https://classes.engineering.wustl.edu/cse425s/images/2/26/Java.png",
+    Typescript: "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
+    Xcode: "./assets/xcode.png",
+    Unity: "./assets/unity.png",
+    GameCenter: "https://upload.wikimedia.org/wikipedia/commons/9/96/Game_Center_icon.svg",
+    VisualStudioCode: "https://upload.wikimedia.org/wikipedia/commons/f/f3/Visual_Studio_Code_0.10.1_icon.png",
+    VisualStudio: "https://upload.wikimedia.org/wikipedia/commons/5/59/Visual_Studio_Icon_2019.svg",
+    Canva: "https://upload.wikimedia.org/wikipedia/he/5/56/Canva-logo.png",
+    GitHub: "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg",
+    NextJS: "./assets/next.js.png",
+    TailwindCss: "https://upload.wikimedia.org/wikipedia/commons/6/6e/Hasyim50px-TailwindCSS_Logo.png",
+    AWS: "./assets/aws.png",
+    Illustrator: "https://upload.wikimedia.org/wikipedia/commons/5/59/Adobe-illustrator-icon.svg",
+    Photoshop: "https://upload.wikimedia.org/wikipedia/commons/9/92/Adobe_Photoshop_CS6_icon.svg",
+    Krita: "https://upload.wikimedia.org/wikipedia/commons/7/73/Calligrakrita-base.svg",
+    PokeAPI: "./assets/pokeapi.png",
+    RocketLeague: "./assets/champ.png",
+};
 
 export const PageHeaderLabels: HeaderLabels = {
     AboutMe: {
@@ -24,7 +51,7 @@ export const Projects: ProjectTemplate[] = [
         Title: { Primary: 'Rizze:', Secondary: 'A Stacker Game' },
         OneLiner: 'A nostalgic challenge reborn for your phone. Fast, fun and addictive!',
         Description: 'Rizze is a fast and addictive one-tap challenge built for quick play sessions on the go. Designed for simplicity and accessibility, every round delivers an easy-to-learn yet hard-to-master experience that keeps you coming back. With smooth gameplay, clean visuals, and engaging design, Rizze is perfect for anyone looking for a fun pick-up-and-play game on iOS.',
-        Technologys: [ 'Unity - C#', 'Xcode', 'Apple Core', 'Apple Gamekit', 'Visual Studio Code', 'Canva', 'GitHub' ],
+        Technologys: [ TechnologyLogos.Unity, TechnologyLogos.Xcode, TechnologyLogos.GameCenter, TechnologyLogos.VisualStudioCode, TechnologyLogos.Canva, TechnologyLogos.GitHub ],
         Link: "https://github.com/hectorp55/cube-stacker",
         Images: [
             {image: './assets/Rizze-1.png', thumbImage: './assets/Rizze-1.png'},
@@ -37,7 +64,7 @@ export const Projects: ProjectTemplate[] = [
         Title: { Primary: 'Fuel Cast:', Secondary: 'Gas Price Estimator' },
         OneLiner: 'Know before you pump. Get tomorrow\’s gas price forecast today.',
         Description: 'This app helps drivers make smarter fueling decisions by predicting whether gas prices are likely to rise or fall. It combines historic data from the FRED Federal Reserve API and the U.S. Energy Information Administration API, with daily price updates from Collect API, to generate forecasts. Built with Next.js using API routes and deployed on AWS Amplify, the app delivers fast, reliable insights right from the web.',
-        Technologys: [ 'Next.js', 'Tailwind CSS', 'Next.js API Routes', 'AWS Amplify', 'Canva', 'GitHub' ],
+        Technologys: [ TechnologyLogos.NextJS, TechnologyLogos.TailwindCss, TechnologyLogos.AWS, TechnologyLogos.Canva, TechnologyLogos.GitHub ],
         Link: "https://github.com/hectorp55/gas-prices-estimator",
         Images: [
             {image: './assets/Fuelcast-1.png', thumbImage: './assets/Fuelcast-1.png'},
@@ -50,7 +77,7 @@ export const Projects: ProjectTemplate[] = [
         Title: { Primary: 'Pokemon', Secondary: 'Wordle' },
         OneLiner: 'New York Times Wordle, Pokemon Version',
         Description: 'A React-based demo inspired by the popular New York Times game, Wordle. In this version, players guess five-letter Pokémon names and can request hints in the form of their in-game sprites. It\'s a fun twist on the original, blending wordplay with nostalgia for Pokémon fans.',
-        Technologys: [ 'React', 'React Query', 'Pokemon API V2', 'Visual Studio', 'GitHub', 'Firebase' ],
+        Technologys: [ TechnologyLogos.React, TechnologyLogos.ReactQuery, TechnologyLogos.PokeAPI, TechnologyLogos.VisualStudio, TechnologyLogos.GitHub, TechnologyLogos.Firebase ],
         Link: "https://github.com/hectorp55/poke-wordle",
         Images: [
             {image: './assets/poke-wordle-1.png', thumbImage: './assets/poke-wordle-1.png'},
@@ -63,7 +90,7 @@ export const Projects: ProjectTemplate[] = [
         Title: { Primary: 'Bridge', Secondary: 'Builder' },
         OneLiner: 'Ever felt like building just a whole bunch or bridges? Well now you can!',
         Description: 'A mobile game I designed and developed using Unity and C#. The concept came from a desire to create a game that could be played using only a single tap, making it simple, accessible, and engaging. I handled every aspect of the project, including game design, development, and artwork, from start to finish. The game is currently available on the Google Play Store.',
-        Technologys: [ 'Unity - C#', 'Visual Studio', 'Adobe Illustrator', 'GitHub' ],
+        Technologys: [ TechnologyLogos.Unity, TechnologyLogos.VisualStudioCode, TechnologyLogos.Illustrator, TechnologyLogos.GitHub ],
         Link: "https://github.com/hectorp55/bridgebuilder",
         Images: [
             {image: './assets/BridgeBuilder-TitleScreen.png', thumbImage: './assets/BridgeBuilder-TitleScreen.png'},
@@ -78,7 +105,7 @@ export const Projects: ProjectTemplate[] = [
         Title: { Primary: 'Cake', Secondary: 'Stacker' },
         OneLiner: 'Uno soñaba que era rey, Y de momento quiso un pastel',
         Description: 'A web game I created, inspired by one of my favorite childhood mini games, Disney’s 625 Sandwich Stacker. The main character, a piglet who dreams of becoming king so he can eat as much cake as he wants, was inspired by the lullaby “Cochinitos Dormilones” by Cri Cri, a bedtime song my dad used to sing to me. I handled every part of the game myself, from the hand-drawn character art to the core gameplay mechanics. The result is a playful, nostalgic experience that brings together personal memories and interactive design.',
-        Technologys: [ 'Unity - C#', 'Adobe Photoshop', 'Visual Studio' ],
+        Technologys: [ TechnologyLogos.Unity, TechnologyLogos.Photoshop, TechnologyLogos.VisualStudio ],
         Link: null,
         Images: [
             {image: './assets/CakeStacker-TitleScreen.png', thumbImage: './assets/CakeStacker-TitleScreen.png'},
@@ -92,7 +119,7 @@ export const Projects: ProjectTemplate[] = [
         Title: { Primary: 'Intergalactic', Secondary: 'Muster' },
         OneLiner: 'Intergalactic hamburgers are all the rage!',
         Description: 'A web game I led the development of, created in collaboration with a group of work friends interested in exploring what it takes to bring a small game from concept to launch. As a team, we handled everything from initial ideation and hand-drawn artwork to game design, development, and final deployment. It was a fun and rewarding exercise in collaboration, creativity, and fast-paced iteration. The game is still available to play on itch.io and can be found in the README of the GitHub project linked above.',
-        Technologys: [ 'Unity - C#', 'Krita', 'Visual Studio', 'GitHub' ],
+        Technologys: [ TechnologyLogos.Unity, TechnologyLogos.Krita, TechnologyLogos.VisualStudio, TechnologyLogos.GitHub ],
         Link: "https://github.com/hectorp55/UFOCowGame",
         Images: [
             {image: './assets/IM-Gameplay1.png', thumbImage: './assets/IM-Gameplay1.png'},

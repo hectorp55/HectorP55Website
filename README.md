@@ -16,6 +16,5 @@ npm run start
 ```
 
 # TODO
-- underline animation on navigation
 
 Should be availilbe on: http://localhost:4200/

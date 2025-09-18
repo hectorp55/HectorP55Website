@@ -19,13 +19,11 @@
     <div class="project-description">
       <p>{{projectTemplate.Description}}</p>
       <p>Technology Used</p>
-      @for (tech of projectTemplate.Technologys; track tech) {
-        <ul>
-          <li>
-            {{tech}}
-          </li>
-        </ul>
-      }
+      <div class="tech-used">
+        @for (tech of projectTemplate.Technologys; track tech) {
+          <skill-icon [img-url]="tech"></skill-icon>
+        }
+      </div>
     </div>
   </div>
 </div>

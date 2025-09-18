@@ -60,6 +60,13 @@
     @media (max-width: 767px) {
         width: 100%;
     }
+
+    .tech-used {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
 }
 
 .project-template {
