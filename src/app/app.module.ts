@@ -13,6 +13,7 @@ import { NgImageSliderModule } from 'ng-image-slider';
 import { ExperienceComponent } from './experience/experience.component';
 import { ExperienceRowTemplateComponent } from './experience/experience-row-template/experience-row-template.component';
 import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
+import { SkillIconComponent } from './skill-icons/skill-icon.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
     HeaderCardComponent,
     ProjectRowTemplateComponent,
     ExperienceRowTemplateComponent,
-    FooterComponent
+    FooterComponent,
+    SkillIconComponent
   ],
   imports: [
     BrowserModule,
